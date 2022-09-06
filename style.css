@@ -17,7 +17,7 @@ header h1{
 }
 
 h2{
-    font-size: 3em;
+    font-size: 1,5em;
 }
 
 .laptop-pic{
@@ -36,9 +36,7 @@ title{
 }
 
 nav{
-
     padding: 5px 0;
-    text-align: center;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
     margin:1em 0;
@@ -53,14 +51,14 @@ nav ul{
 
 nav li{
     display:inline-block;
-    padding-right: 2em;
-    font-size:1.2em;
+    padding:0 0.5em;
 }
 
 nav a{
+    font-size:0.8em;
     text-decoration: none;
     color:#777;
-    margin-right:10px;
+    
 }
 main h2{
     font-family: 'Roboto Slab';
@@ -68,8 +66,9 @@ main h2{
 }
 main h5{
     font-family: 'Abril Fatface';
-    color: #dd3232;
+    color: rgba(248, 39, 39, 0.823);
     margin-top: 0.5em;
+    font-size: 0.9em;
 }
 
 p{
